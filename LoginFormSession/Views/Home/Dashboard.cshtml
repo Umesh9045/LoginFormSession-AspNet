@@ -1,0 +1,9 @@
+﻿@{
+    if (ViewBag.MySession != null)
+    {
+        <p style="color:green;">Welcome @ViewBag.MySession</p>
+    }
+}
+
+
+<a asp-controller="Home" asp-action="Logout">Logout</a>
